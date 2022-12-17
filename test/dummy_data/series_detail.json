@@ -1,0 +1,37 @@
+{
+    "adult": false,
+    "backdrop_path": "/cl8NLaoztP877hTSYSy6YIUkChF.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        11
+    ],
+    "genres": [
+        {
+            "id": 10764,
+            "name": "Reality"
+        }
+    ],
+    "homepage": "https://www.goplay.be/now-what",
+    "id": 210855,
+    "in_production": true,
+    "languages": [
+        "nl"
+    ],
+    "name": "Now what",
+    "number_of_episodes": 90,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "BE"
+    ],
+    "original_language": "nl",
+    "original_name": "Now what",
+    "overview": "7 young people co-house in Antwerp. They are all at the beginning of their adult life and have to decide what that should look like.",
+    "popularity": 1358.348,
+    "poster_path": "/89kiLK0S7Rbfjorvhm0vxTAgAH3.jpg",
+    "production_companies": [],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Reality",
+    "vote_average": 5.2,
+    "vote_count": 4
+}
