@@ -1,0 +1,26 @@
+// ignore_for_file: prefer_const_constructors_in_immutables
+
+import 'package:equatable/equatable.dart';
+
+import 'series_model.dart';
+
+class SeriesResponse extends Equatable {
+  final List<SeriesModel> seriesList;
+
+  SeriesResponse({
+    required this.seriesList,
+  });
+
+  factory SeriesResponse.fromJson(Map<String, dynamic> json) => SeriesResponse(
+        seriesList: List<SeriesModel>.from((json["results"] as List)
+            .map((x) => SeriesModel.fromJson(x))
+            .where((element) => element.posterPath != null)),
+      );
+
+  Map<String, dynamic> toJson() => {
+        "results": List<dynamic>.from(seriesList.map((x) => x.toJson())),
+      };
+
+  @override
+  List<Object> get props => [seriesList];
+}
